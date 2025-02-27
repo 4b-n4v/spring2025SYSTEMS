@@ -1,6 +1,9 @@
 fn main() {
-    let x = 5;
-    println!("The value of x is: {x}");
-    x = 7;
-    println!("The value of x is: {x}");
+    println!("Hello, world!");
+
+    another_function();
+}
+
+fn another_function() {
+    println!("Another function.");
 }
